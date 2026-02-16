@@ -1,0 +1,116 @@
+.home-image1{
+    width: 400px;
+    height: 400px;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+.home-image2{
+    width: 300px;
+    height: 300px;
+    margin-top: 200px;
+    margin-left: 300px;
+}
+
+.home-title{
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 100px;
+    color: #333;
+    display: flex;
+    justify-content: center;
+}
+
+.home-link-to-register{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.home-link-container{
+    display: flex;
+    justify-content: center;
+}
+
+.home-description{
+    font-size: 18px;
+    color: #555;
+    font-weight: 600;
+    margin-top: 20px;
+    display: flex;
+    max-width: 800px;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-card-home{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-home{
+    width: 350px;
+    margin: 20px;
+    border: none;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    gap: 2em;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+}
+
+.home-footer{
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.home-footer-text{
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+}
+
+.home-sites{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 45px;
+    margin-top: 20px;
+    padding: 20px 0 80px 35px;
+}
+
+.home-site-link{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #919191;
+    font-weight: bold;
+}
+
+.home-site-image{
+    width: 30px;
+    height: 30px;
+}

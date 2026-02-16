@@ -1,0 +1,18 @@
+.modal-body-task{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+.image-delete-task{
+    height: 30px;
+    width: 30px;
+    margin-left: 12px;
+}
+
+.question-delete{
+    text-align: center;
+    margin: 30px;
+}
+

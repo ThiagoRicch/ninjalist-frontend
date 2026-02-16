@@ -1,0 +1,31 @@
+.navbar-after-login-image{
+    width: 50px;
+    height: 50px;
+}
+
+.navbar-after-login-title{
+    padding-right: 1100px;
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.navbar-after-login-container{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.navbar-after-login-home-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.username-photo{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}

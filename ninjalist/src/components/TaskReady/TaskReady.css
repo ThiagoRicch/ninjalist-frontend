@@ -1,0 +1,99 @@
+.tasks-ready-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.body-task-ready {
+    width: 800px;
+    height: 120px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.task-ready-title {
+    position: absolute;
+    top: 15px;
+    left: 25px;
+    margin: 0;
+}
+
+.task-ready-description {
+    position: absolute;
+    top: 45px;
+    left: 25px;
+    margin: 0;
+}
+
+.task-ready-data {
+    position: absolute;
+    bottom: 15px;
+    right: 25px;
+    margin: 0;
+}
+
+.task-ready-active {
+    position: absolute;
+    bottom: 15px;
+    right: 120px;
+    margin: 0;
+}
+
+.priority-high {
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+}
+
+.priority-medium {
+    box-shadow: 0 0 15px rgba(255, 193, 7, 0.6);
+}
+
+.priority-low {
+    box-shadow: 0 0 15px rgba(0, 123, 255, 0.6);
+}
+
+.image-kunai {
+    height: 30px;
+    width: 30px;
+}
+
+.image-smoke {
+    height: 30px;
+    width: 30px;
+}
+
+.button-kunai {
+    border: none;
+    position: absolute;
+    top: 15px;
+    right: 75px;
+    margin: 0;
+}
+
+.button-smoke {
+    border: none;
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    margin: 0;
+}
+
+.active-true {
+    background-color: green;
+}
+
+.active-false {
+    background-color: red;
+    margin: 0 15px 0 0;
+}
+
+.status-circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 22px;
+    right: 170px; 
+}

@@ -1,0 +1,39 @@
+.profile-container {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  padding-left: 110px;
+}
+
+.profile-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.edit-button {
+  position: absolute;
+  bottom: 8px;
+  left: 230px;
+  background: white;
+  border: none;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: 0.2s ease;
+}
+
+.edit-button:hover {
+  transform: scale(1.1);
+}
+
+.edit-button img {
+  width: 18px;
+  height: 18px;
+}

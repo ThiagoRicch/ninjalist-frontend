@@ -1,0 +1,31 @@
+.modal-body-task{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.select-priority{
+    margin-top: 15px;
+}
+
+.modal-input{
+    padding: 10px;
+    max-width: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.modal-input-description{
+    height: 150px;
+    padding: 10px;
+    max-width: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+
+.image-new-task{
+    height: 30px;
+    width: 30px;
+    margin-left: 12px;
+}

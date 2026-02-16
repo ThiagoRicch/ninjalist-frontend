@@ -1,0 +1,81 @@
+.register-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.register-form-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divider-register{
+    width: 3px;
+    height: 350px;
+    background-color:black;
+    margin: 15px 20px;
+}
+
+.register-form-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 40px;
+}
+
+.register-image{
+    width: 150px;
+    height: 150px;
+}
+
+.register-paragraph-to-login{
+    text-align: center;
+}
+
+.register-link-to-login{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-form{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 550px;
+    padding-left: 35px;
+
+}
+.register-label{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.register-input{
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.register-button{
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.register-title{
+    font-size: 24px;
+    font-weight: bold;
+}
